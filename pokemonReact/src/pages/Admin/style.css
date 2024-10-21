@@ -1,0 +1,252 @@
+Body{
+    background: #790401;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.fold-big{
+    background: #232323;
+    border :2px solid #191919;
+}
+.fold{
+    background: #232323;
+    border :2px solid #191919;
+}
+.fold:hover{
+   box-shadow: #191919 0px 0px 50px;
+    transition: 0.5s;
+}
+h2,h3,h4,h5,i,p{
+    color: white;
+}
+.title{
+    font-size: 40px;
+    color: white;
+}
+.title-2{
+    font-size: 30px;
+    color: white;
+}
+
+.title-3{
+    font-size: 20px;
+    color: white;
+}
+.title-4{
+    font-size: 25px;
+    color: white;
+}
+.nombre{
+    font-size: 22px;
+    color: white;
+}
+.perfil-card{
+    height:100%;
+    width: 250px;
+}
+
+.perfil{
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+
+}
+.peli-card{
+    height: 100%;
+    width: 250px;
+}
+.pelicula{
+    height: 320px;
+    width: 250px;
+    padding: 10px;
+}
+.pelicula-perfil{
+    height: 280px;
+    width: 220px;
+    padding: 10px;
+}
+
+.busqueda {
+    border: 2px solid #790401;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #232323;
+    color: white;
+    width: 100%;
+    max-width: 650px;
+}
+
+.busqueda::placeholder {
+    color: white;
+}
+
+.busqueda:focus {
+    outline: none;
+    border-color: #790401;
+    color:white;
+    background-color: #232323;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+.cartelera{
+    margin-left: 10px;
+}
+.reparto{
+    width: 190px;
+    height: 200px;
+}
+.reparto-card{
+    height:100%;
+}
+.director{
+    width: 350px;
+    height: 350px;
+}
+.dark-color{
+    background: #0b122b;
+    color: white;
+}
+
+.custom-navbar {
+    background-color: #232323;
+    box-shadow: 0 10px 10px 4px black;
+}
+
+.custom-navbar a {
+    color: #ffffff;
+
+}
+
+.custom-navbar a:hover {
+    color: #790401;
+}
+.custom-navbar .dropdown-menu {
+    background-color: #191919;
+    border-color: #191919;
+}
+
+.custom-navbar .dropdown-item {
+    color: #ffffff;
+}
+.custom-navbar .dropdown-item:hover {
+    background-color: #191919;
+    color: #ffffff;
+}
+
+/* Tipos */
+.fold-tipo{
+    background: #232323;
+    border :4px solid #790401;
+}
+.fold-tipo-card{
+    background: gray;
+    border :2px solid grey;
+    border-radius: 20%;
+}
+.btn-tipo{
+    background: #790401;
+    color: white;
+    border: 2px solid #790401;
+}
+.btn-tipo:hover{
+    background: #232323;
+    color: white;
+    border: 2px solid #790401;
+}
+.img-tipo{
+    width: 40px;
+    height: 40px;
+    objectFit: 'cover';
+
+}
+
+/* Habilidades */
+.fold-habilidad{
+    background: #232323;
+    border :4px solid #790401;
+}
+.fold-habilidad-card{
+    background: gray;
+    border :3px solid grey;
+    border-radius: 20%;
+}
+.btn-habilidad{
+    background: #790401;
+    color: white;
+    border: 2px solid #790401;
+}
+.btn-habilidad:hover{
+    background: #232323;
+    color: white;
+    border: 2px solid #790401;
+}
+
+/* Pokemones */
+.fold-pokemon{
+    background: #232323;
+    border :4px solid #790401;
+}
+.fold-tipo-pokemon{
+    background: gray;
+    border :4px solid grey;
+    border-radius: 20%;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pokemon{
+    padding: 5px;
+    padding: 10px;
+}
+.color{
+    color: white;
+}
+.fold-tipo-pokemon-card{
+    background: gray;
+    border :2px solid grey;
+    border-radius: 20%;
+    margin: 5px;
+}
+.fold-habilidad-pokemon-card{
+    background: gray;
+    border :2px solid grey;
+    border-radius: 20%;
+    margin: 5px;
+    color: white;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #1c1c1c; /* Fondo oscuro para contraste */
+}
+
+.table th {
+    background-color: #212121;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #790401;
+    padding: 10px;
+}
+
+.table td {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #790401;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #333;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid #790401;
+}
+.no-bold {
+    font-weight: normal;
+}
